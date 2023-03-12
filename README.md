@@ -15,4 +15,6 @@ Type tasks to do where the cursor is blinking.
 Press "enter" on the keyboard or click on the "Add task" button
 The green button deletes the task, the red button deletes it.
 
-![screenshot](https://raw.githubusercontent.com/rapheeck/cantorFunctions/main/images/Zrzut%20ekranu%20(10).png)
+## Screenshot
+
+![screenshot]([https://raw.githubusercontent.com/rapheeck/listtodo/main/images/Zrzut%20ekranu%20(11).png])
