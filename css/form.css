@@ -4,8 +4,7 @@
     justify-content: center;
     max-width: 750px;
     padding: 5px;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 .form__legend {
@@ -30,7 +29,11 @@
     min-width: 80%;
     padding: 10px;
     border: 1px solid gray;
-    
+}
+
+.form__inputMargins {
+    padding: 20px;
+    margin: auto;
 }
 
 .form__button {
@@ -43,5 +46,6 @@
 
 .form__tasks {
     align-self: flex-start;
-    padding-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }

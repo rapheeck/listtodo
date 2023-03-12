@@ -4,6 +4,7 @@
     flex-basis: 500px;
     border-bottom: 1px solid gray;
     padding: 5px;
+    margin: auto;
 }
 
 .list__item--done {
@@ -23,6 +24,6 @@
 
 .list__task {
     flex-basis: 70vh;
-    padding: 0px;
+    padding: 5px;
     margin: auto;
 }
