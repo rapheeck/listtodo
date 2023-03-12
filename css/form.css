@@ -1,0 +1,47 @@
+.form__contenier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 750px;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.form__legend {
+    background-color: white;
+}
+
+.form__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 750px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form__header--tasks {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.form__input {
+    min-width: 80%;
+    padding: 10px;
+    border: 1px solid gray;
+    
+}
+
+.form__button {
+    background-color:rgb(3, 157, 184);
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+}
+
+.form__tasks {
+    align-self: flex-start;
+    padding-left: 0px;
+}
