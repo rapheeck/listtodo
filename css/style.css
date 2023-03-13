@@ -9,4 +9,11 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid crimson;
 }

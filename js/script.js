@@ -43,14 +43,10 @@
             htmlString += `
             <li
               class="list__item${task.done ? " list__item--done" : ""}">
-              <button class="js-done list__button">
-              <img class="list__button" src="images/done.png">
-              </button>
+              <button class="js-done list__button">✔️</button>
               <p class="list__task">${task.content} </p>
-              <button class="js-remove list__button--delete">
-              <img class="list__button--delete" src="images/delete.png">
-              </button>
-              </li>
+              <button class="js-remove list__button--delete">❌</button>
+            </li>
         `;
         }
         document.querySelector(".js-tasks").innerHTML = htmlString;
