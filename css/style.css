@@ -8,12 +8,12 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: lightgray;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     padding: 20px;
     margin: auto;
-    border: 1px solid crimson;
+    max-width: 800px;
 }

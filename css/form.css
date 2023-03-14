@@ -1,28 +1,36 @@
 .form__contenier {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .form__legend {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    justify-content: space-between;
+    background-color: whitesmoke;
 }
 
 .form__header {
-    padding-left: 20px;
-    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background-color: lightgrey;
 }
 
 .form__header--tasks {
-    border-bottom: 1px solid gray;
-    padding: 20px;
+    background-color: whitesmoke;
+    border-bottom: 2px solid lightgrey;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
 }
 
 .form__input {
     min-width: 80%;
     padding-left: 10px;
     margin: 10px;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
     padding: 5px;
 }
 
@@ -31,6 +39,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 10px 0px 10px 0px;
+    border-bottom: 10px solid lightgrey;
 }
 
 .form__button {

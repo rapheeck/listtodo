@@ -10,7 +10,7 @@
     justify-content: flex-start;
     max-width: 98%;
     list-style: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgrey;
 }
 
 .list__item--done {
@@ -43,6 +43,7 @@
     flex-basis: 75vh;
     padding: 5px;
     margin: 0px;
+    text-decoration: none;
 }
 
 .list__task--done {
