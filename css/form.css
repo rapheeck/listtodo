@@ -26,6 +26,8 @@
 }
 
 .form__input {
+    display: flex;
+    align-items: center;
     min-width: 80%;
     padding-left: 10px;
     margin: 10px;
@@ -38,8 +40,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     border-bottom: 10px solid lightgrey;
+    padding-bottom: 15px;
 }
 
 .form__button {
