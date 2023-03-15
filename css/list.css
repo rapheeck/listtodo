@@ -1,16 +1,17 @@
 .list__contenier {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .list__item {
     display: flex;
     justify-content: flex-start;
-    max-width: 98%;
+    flex-basis: 76vh;
     list-style: none;
-    border-bottom: 1px solid lightgrey;
+    margin: 10px;    
 }
 
 .list__item--done {
@@ -18,8 +19,9 @@
 }
 
 .list__button {
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
     text-decoration: none;
     border: none;
 }
@@ -39,13 +41,16 @@
 
 .list__task {
     display: flex;
-    align-self: flex-start;
-    flex-basis: 75vh;
-    padding: 5px;
-    margin: 0px;
+    flex-direction: row;
     text-decoration: none;
+    border-bottom: 1px solid lightgrey;
 }
 
 .list__task--done {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+    text-decoration: none;
 }
