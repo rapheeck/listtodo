@@ -2,7 +2,7 @@
 
 ## Demo
 
-[https://rapheeck.github.io/listtodo/]
+https://rapheeck.github.io/listtodo/
 
 ## Description
 
@@ -13,7 +13,7 @@ Gives you the ability to cross out or delete completed tasks.
 
 Type tasks to do where the cursor is blinking.
 Press "enter" on the keyboard or click on the "Add task" button.
-The green button deletes the task, the red button deletes it.
+The green button crosses out the task, the red button deletes it.
 
 ## Screenshot
 
